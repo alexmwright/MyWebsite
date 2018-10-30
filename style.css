@@ -1,0 +1,51 @@
+body {
+  background-color: grey;
+}
+
+header > h1 {
+  color: red;
+}
+
+section blockquote:nth-child(odd) {
+  width: 32%;
+  background-color: rgba(239, 35, 30, .8);
+  box-shadow: 5px 10px 10px 5px;
+}
+
+section blockquote:nth-child(even) {
+  width: 32%;
+  background-color: rgba(232, 229, 230, .8);
+  box-shadow: 10px 10px 10px 10px;
+}
+
+body {
+border: 5px solid red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+p.double {border-style:
+   double;
+}
