@@ -50,14 +50,9 @@ p.double {border-style:
    double;
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    background: red;
-    -webkit-transition: width 2s; 
-    transition: width 2s;
+font-family: "Times New Roman", Times, serif;
 }
 
-div:hover {
-    width: 300px;
+p.sansserif {
+font-family: Arial, Helvetica, sans-serif;
 }
