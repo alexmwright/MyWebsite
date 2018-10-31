@@ -50,9 +50,6 @@ p.double {border-style:
    double;
 }
 
-font-family: "Times New Roman", Times, serif;
-}
-
-p.sansserif {
-font-family: Arial, Helvetica, sans-serif;
+body {
+    background-color: grey;
 }
