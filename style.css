@@ -53,3 +53,11 @@ p.double {border-style:
 body {
     background-color: grey;
 }
+
+header h1:hover{
+  background-image: none;
+  animation-name: header;
+  animation-duration: 2s;
+  animation-iteration-count: 4;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
