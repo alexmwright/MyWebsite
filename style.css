@@ -1,15 +1,18 @@
 body {
   background-color: grey;
 }
-
-header > h1 {
-  color: red;
+body {
 }
+
 
 section blockquote:nth-child(odd) {
   width: 32%;
   background-color: rgba(239, 35, 30, .8);
   box-shadow: 5px 10px 10px 5px;
+}
+
+header > h1 {
+  color: red;
 }
 
 section blockquote:nth-child(even) {
@@ -50,82 +53,24 @@ p.double {border-style:
    double;
 }
 
-body {
-    background-color: grey;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: example; 
+  -webkit-animation-duration: 4s; 
+  -webkit-animation-direction: reverse; 
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;  
 }
 
-header h1:hover {
-  background-image: none;
-  animation-name: header;
-  animation-duration: 2s;
-  animation-iteration-count: 4;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
+@-webkit-keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:grey; left:200px; top:0px;}
+  50%  {background-color:black; left:200px; top:200px;}
+  75%  {background-color:white; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
 }
 
-{
-    width: 100px;
-    height: 50px;
-    background-color: red;
-    font-weight: bold;
-    position: relative;
-    -webkit-animation: mymove 5s infinite;
-    animation: mymove 5s infinite;
-}
-
-
-#div1 {-webkit-animation-timing-function: linear;}
-#div2 {-webkit-animation-timing-function: ease;}
-#div3 {-webkit-animation-timing-function: ease-in;}
-
-
-
-#div1 {animation-timing-function: linear;}
-#div2 {animation-timing-function: ease;}
-#div3 {animation-timing-function: ease-in;}
-
-
-
-
-@-webkit-keyframes mymove {
-    from {left: 0px;}
-    to {left: 300px;}
-}
-
-
-@keyframes mymove {
-    from {left: 0px;}
-    to {left: 300px;}
-}
-    width: 100px;
-    height: 50px;
-    background-color: red;
-    font-weight: bold;
-    position: relative;
-    -webkit-animation: mymove 5s infinite;
-    animation: mymove 5s infinite;
-}
-
-
-#div1 {-webkit-animation-timing-function: linear;}
-#div2 {-webkit-animation-timing-function: ease;}
-#div3 {-webkit-animation-timing-function: ease-in;}
-
-
-
-#div1 {animation-timing-function: linear;}
-#div2 {animation-timing-function: ease;}
-#div3 {animation-timing-function: ease-in;}
-
-
-
-@-webkit-keyframes mymove {
-    from {left: 0px;}
-    to {left: 300px;}
-}
-
-
-@keyframes mymove {
-    from {left: 0px;}
-    to {left: 300px;}
-}

@@ -8,12 +8,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-	  <div id="div1">OHIO</div>
-	  <div id="div2">STATE</div>
-    <div id="div3">BUCKEYES</div>
-    <center>
-
-    <header>
+ 	<center>
+	<header>
       <h1><font color="red">The Buckeye Bulletin</font></h1>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -22,10 +18,19 @@
         <li><a href="highlights.html">Highlights</a></li>
       </ul>
     </header>
-      <img src="images/kickoff.jpg" alt="OSU kickoff">
+		<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+What Time Is It?</button>
+
+<p id="demo"></p>
+
+      <img src="images/kickoff.jpg" alt="OSU kickoff" width="425" height="180">
       <p class="double"><p><font color="white">This is the #1 Ohio State Football Fan Site in the State. Use it to view highlights, rosters,<br>
         and the 2018-2019 Ohio State Football Schedule. We'll take you week by week and satisfy all of your Buckeye Fan<br>
         needs. Go Buckeyes!</font></p>
+		<p id="demo">O-H</p>
+
+		<button type="button" onclick="document.getElementById('demo').innerHTML = 'I-O'">Click Me!</button>
     <footer>
       <font color="white">Copyright &copy: 2018
         Wright Productions &reg</font>
